@@ -41,9 +41,21 @@
 .navbar-default .navbar-nav > li > a {
   color:white;
   &:hover {
-    color:white;
-    opacity:0.75;
+    color: white;
+    opacity: 0.75;
   }
+}
+
+// Mobile Nav Hamburger
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #4B79A1;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:white;
 }
 
 // Homepage styles
